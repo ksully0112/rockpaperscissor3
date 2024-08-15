@@ -1,0 +1,51 @@
+.box {
+  border: 5px solid black;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+}
+
+.item-img {
+  width: 400px;
+  height: 300px;
+}
+
+.win {
+  border-color: green;
+  color: green;
+}
+
+.lose {
+  border-color: red;
+  color: red;
+}
+
+.tie {
+  border-color: black;
+  color: black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.img-button {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: beige;
+}
+
+.button-img {
+  width: 80%;
+  height: 60%;
+  border-radius: 100%;
+  object-fit: cover;
+}
